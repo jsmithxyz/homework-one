@@ -12,8 +12,8 @@ html, body {
 /* wrapper styling */
 .wrapper {
     min-height: 100%;
-    width: 100%;
-    background: rgb(223, 220, 220);
+    width: 100%; 
+    background-image: url("../images/gravel.png");
     display: flex;
     flex-direction: column;
 }
@@ -74,11 +74,13 @@ html, body {
 
 /* About Me box styling */
 .aboutmebox {
-    padding-bottom: 125px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: auto;
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: auto;
     min-height: 100%;
     background: white;
@@ -87,7 +89,7 @@ html, body {
 .aboutmebox h1 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    padding: 20px;
+    padding: 20px 20px 20px 0px;
     display: block;
     border-bottom: 1px solid #cccccc;
 }
@@ -98,14 +100,49 @@ html, body {
 }
 
 .aboutmebox img {
-    padding: 20px;
+    padding: 10px 20px 10px 0px;
     float: left;
 }
 
 .aboutmebox p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    line-height: auto;
+    line-height: 2;
+}
+
+/* Contact Form Box styling*/
+.contactbox {
+    padding-left: 20px;
+    padding-right: 20px;
+    float: center;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: auto;
+    background-color: #ffffff;
+}
+
+.contactbox form {
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.contactbox h1 {
+    padding: 20px 20px 20px 0px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    border-bottom: 1px solid #cccccc;
+}
+
+.contactbox #button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 40px;
+    width: 75px;
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin-top: 20px;
 }
 
 footer {

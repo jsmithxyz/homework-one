@@ -161,6 +161,21 @@ html, body {
     display: table;
     clear: both;
 }
+
+.imgholder {
+    position: relative;
+}
+.imgholder span {
+    position: absolute;
+    bottom: 45px;
+    left: 20px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #4aaaa5;
+    width: 200px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
 /* Contact Form Box styling*/
 
 .contactbox {

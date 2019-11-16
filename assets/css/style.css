@@ -141,7 +141,7 @@ html, body {
 }
 
 #game, #foodapp, #phone, #workouttracker, #sports {
-    border: 1px solid black;
+    border: 1px solid lightgray;
     margin: 20px;
 }
 

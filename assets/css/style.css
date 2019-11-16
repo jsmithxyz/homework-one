@@ -23,7 +23,7 @@ html, body {
     height: 80px;
     background: #ffffff;
     display: block;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
 }
 .inner_header {
     background: #ffffff;
@@ -93,6 +93,7 @@ html, body {
     margin-top: 20px;
     margin-bottom: auto;
     background: white;
+    border: 2px solid #dddddd;
 }
 
 .aboutmebox h1 {
@@ -130,7 +131,8 @@ html, body {
     margin-bottom: auto;
     margin-top: 20px;
     padding-left: 20px;
-    padding-right: 20px
+    padding-right: 20px;
+    border: 2px solid #dddddd;
 }
 
 .portfoliobox h1 {
@@ -188,6 +190,7 @@ html, body {
     margin-top: 20px;
     margin-bottom: auto;
     background-color: #ffffff;
+    border: 2px solid #dddddd;
 }
 
 .contactbox form {
@@ -196,7 +199,7 @@ html, body {
 }
 
 .contactbox h1 {
-    padding: 20px 20px 20px 0px;
+    padding: 10px 20px 20px 0px;
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     border-bottom: 1px solid #cccccc;
@@ -206,10 +209,20 @@ html, body {
     background-color: #4aaaa5;
     color: #ffffff;
     height: 40px;
-    width: 75px;
+    width: 100px;
     text-align: center;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    margin-top: 20px;
+    margin-top: 10px;
+}
+
+label {
+    color: #777777;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+form p {
+    color: #777777;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 footer {
